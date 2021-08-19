@@ -65,10 +65,12 @@
 	
 	
 <!-- Site map cov
-    ================================================== -->	
+    ================================================== -->
+	{% if page.url == '/' %}
 <iframe loading="lazy" frameborder="0"  src="https://www.arcgis.com/apps/dashboards/bda7594740fd40299423467b48e9ecf6" style="width:100%;height:100vh;margin-top: 80px;"></iframe>
-	
-	
+{% endif %}		
+
+    
 	
 
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
